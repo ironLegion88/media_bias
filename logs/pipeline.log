@@ -1,0 +1,52 @@
+2025-04-14 07:34:20,122 - INFO - ======== Starting Media Bias Analysis Pipeline ========
+2025-04-14 07:34:20,123 - INFO - --- Executing module: src.article_scraper ---
+2025-04-14 07:41:28,913 - INFO - Successfully executed src.article_scraper in 428.79 seconds.
+2025-04-14 07:41:28,913 - INFO - --------------------------------------------------
+2025-04-14 07:41:28,914 - INFO - --- Executing module: src.preprocessing ---
+2025-04-14 07:41:31,055 - ERROR - Error executing src.preprocessing after 2.14 seconds. Exit code: 1
+2025-04-14 07:41:31,056 - ERROR - Stdout: 
+2025-04-14 07:41:31,056 - ERROR - Stderr: Traceback (most recent call last):
+  File "D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\preprocessing.py", line 36, in download_nltk_data
+    nltk.data.find(f'tokenizers/{item}' if item == 'punkt' else f'corpora/{item}')
+  File "D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\.venv38\lib\site-packages\nltk\data.py", line 579, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mwordnet[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('wordnet')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mcorpora/wordnet[0m
+
+  Searched in:
+    - 'C:\\Users\\rathi/nltk_data'
+    - 'D:\\Ashoka\\Monsoon 2024\\New Geography of the Infortmation Age\\Project\\media_bias\\.venv38\\nltk_data'
+    - 'D:\\Ashoka\\Monsoon 2024\\New Geography of the Infortmation Age\\Project\\media_bias\\.venv38\\share\\nltk_data'
+    - 'D:\\Ashoka\\Monsoon 2024\\New Geography of the Infortmation Age\\Project\\media_bias\\.venv38\\lib\\nltk_data'
+    - 'C:\\Users\\rathi\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\preprocessing.py", line 44, in <module>
+    download_nltk_data()
+  File "D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\preprocessing.py", line 37, in download_nltk_data
+    except nltk.downloader.DownloadError:
+AttributeError: module 'nltk.downloader' has no attribute 'DownloadError'
+
+2025-04-14 07:41:31,058 - ERROR - Pipeline halted due to error in src.preprocessing.
+2025-04-14 07:41:31,059 - ERROR - ======== Pipeline Failed after 430.94 seconds ========
+2025-04-14 07:41:31,059 - INFO - Check individual logs in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\logs' and results in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results'.

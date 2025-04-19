@@ -1,0 +1,27 @@
+requests
+beautifulsoup4
+pandas>=1.5
+numpy
+nltk>=3.6
+python-docx
+spacy==3.7.5
+scikit-learn>=1.0
+matplotlib
+seaborn
+plotly
+# dash
+# Flask
+newspaper3k>=0.2.8
+lxml # newspaper3k dependency
+lxml_html_clean
+pytest
+feedparser # newspaper3k dependency
+# selenium
+# torch
+# transformers
+wordcloud
+scipy
+textblob
+vaderSentiment
+PyYAML
+# Also install spaCy model separately: python -m spacy download en_core_web_sm
