@@ -35,8 +35,8 @@ if not pipeline_logger.hasHandlers():
 # --- Define Scripts to Run (use module paths) ---
 # NOTE: Ensure filenames in src/ do NOT contain hyphens
 SCRIPTS_TO_RUN_AS_MODULES = [
-    'src.article_scraper',      # Corresponds to src/article_scraper.py
-    'src.preprocessing',        # Corresponds to src/preprocessing.py
+    #'src.article_scraper',      # Corresponds to src/article_scraper.py
+    #'src.preprocessing',        # Corresponds to src/preprocessing.py
     'src.analysis_vader',       # Corresponds to src/analysis_vader.py
     'src.analysis_textblob',    # Corresponds to src/analysis_textblob.py
 ]

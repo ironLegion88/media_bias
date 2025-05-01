@@ -57,7 +57,7 @@ ENGLISH_STOPWORDS = set(stopwords.words('english'))
 # Refine this list based on initial results
 CUSTOM_STOPWORDS = {
     'delhi', 'election', 'bjp', 'aap', 'congress', 'party', 'govt', 'government',
-    'state', 'chief', 'minister', 'leader', 'vote', 'voter', 'seat', 'poll',
+    'state', 'chief', 'minister', 'leader', 'vote', 'voter', 'seat', 'poll', 'corruption'
     'campaign', 'result', 'kejriwal', 'modi', 'rekha', 'gupta', 'atishi', 'verma',
     'said', 'also', 'would', 'could', 'like', 'one', 'two', 'year', 'people',
     'new', 'time', 'make', 'even', 'get', 'city', 'capital', 'assembly'
@@ -70,46 +70,35 @@ COMBINED_STOPWORDS = ENGLISH_STOPWORDS.union(CUSTOM_STOPWORDS)
 # Carefully curate and justify these lists in your research paper
 IDEOLOGICAL_TERMS = {
     "pro_bjp_modi": [
-        "masterstroke", "visionary leadership", "modi’s resolve", "modi magic",
-        "strong governance", "development agenda", "nation building", "double engine", "double-engine",
-        "governance efficiency", "economic growth", "reform" , "nationalism", "hindutva",
-        "decisive mandate", "resounding victory", "sabka saath", "sabka vikas"
+        "Modi-Shah duo", "modi magic", "Brand Modi", "strong governance", "development agenda", "double engine", "double-engine",
+        "governance efficiency", "economic growth", "reform", "sabka saath", "sabka vikas"
     ],
     "pro_aap_kejriwal": [
-        "aam aadmi", "common man", "welfare", "governance model", "delhi model",
-        "education reform", "healthcare reform", "mohalla clinic", "anti-corruption",
-        "people's mandate", "disruptor", "alternative politics", "clean governance",
-        "free electricity", "free water", "honest politics"
+        "aam aadmi", "common man", "welfarism", "governance model", "anti-corruption" "alternative politics", "clean governance",
+        "free electricity", "free water", "welfare"
     ],
     "critical_bjp_modi": [
-        "authoritarian", "centralized control", "erosion of democracy", "unilateral decision",
-        "press freedom curbed", "dissent silenced", "government overreach", "censorship",
-        "communal", "polarisation", "majoritarian", "institutional bias", "power grab",
-        "job crisis", "economic slowdown", "threat to constitution"
+        "authoritarian", "centralized control", "Saffron Party", "censorship", "polarisation", "majoritarian", "institutional bias", 
+        "power grab", "economic slowdown", "communal"
     ],
     "critical_aap_kejriwal": [
-        "anarchy", "populism", "freebie", "revdi", "u-turn", "confrontational politics",
-        "liquor scam", "corruption", "mismanagement", "sheesh mahal", "false promise",
-        "governance failure", "hollow promise", "doublespeak", "theatrics", "blame game"
+        "freebie", "revdi", "u-turn", "confrontational politics", "liquor scam", "corruption", "mismanagement", "false promise",
+        "governance failure", "anti-hindu bias", "blame game"
     ],
     "neutral_governance": [
-        "voter turnout", "urban planning", "fiscal allocation", "policy continuity",
-        "electoral outcome", "citizen response", "bureaucratic reshuffle", "infrastructure",
-        "civic amenities", "administration", "poll promises", "lieutenant governor", "lg",
-        "municipal corporation", "mcd", "manifesto", "mandate"
+        "voter turnout", "urban planning", "fiscal allocation", "policy continuity", "electoral outcome", "infrastructure", 
+        "administration", "promises", "lieutenant governor", "lg", "municipal corporation", "mcd", "manifesto", "mandate"
     ],
     "emotive_political": [
-        "political maneuvering", "mobilization tactics", "high-stakes", "battleground",
-        "power grab", "betrayal", "scandal", "controversy", "decisive mandate", "rout",
-        "setback", "spectacular victory", "existential crisis", "decimation", "thumping majority",
-        "landslide", "debacle", "resounding verdict"
+        "political maneuvering", "mobilization tactics", "power grab", "scandal", "controversy", "decisive mandate", "setback", 
+        "spectacular victory"
     ]
 }
 
 PARTY_TERMS = {
-    'BJP': ['bjp', 'bharatiya janata party', 'modi', 'shah', 'yogi', 'adityanath', 'nadda', 'saffron party', 'rekha gupta', 'parvesh verma', 'vijender gupta'],
-    'AAP': ['aap', 'aam aadmi party', 'kejriwal', 'atishi', 'sisodia', 'common man party', 'gopal rai', 'sanjay singh'],
-    'Congress': ['congress', 'inc', 'rahul gandhi', 'gandhi', 'dikshit', 'sheila dikshit', 'sandeep dikshit', 'kharge']
+    'BJP': ['bjp', 'bharatiya janata party', 'modi', 'shah', 'yogi', 'adityanath', 'rekha gupta', 'parvesh verma', ],
+    'AAP': ['aap', 'aam aadmi party', 'kejriwal', 'atishi', 'sisodia',],
+    'Congress': ['congress', 'inc', 'rahul gandhi', 'gandhi', 'dikshit', 'sheila dikshit',]
     # Add other relevant parties/leaders if needed: 'tmc', 'sp', 'rjd', etc. if they feature in coverage
 }
 

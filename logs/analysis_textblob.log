@@ -1,0 +1,189 @@
+2025-04-19 12:52:49,085 - INFO - analysis_textblob - NLTK data 'wordnet' not found. Attempting download...
+2025-04-19 12:52:49,354 - INFO - analysis_textblob - NLTK data 'wordnet' downloaded successfully.
+2025-04-19 12:52:49,622 - INFO - analysis_textblob - spaCy model 'en_core_web_sm' loaded successfully.
+2025-04-19 12:52:49,622 - INFO - analysis_textblob - --- Starting TextBlob Analysis Pipeline ---
+2025-04-19 12:52:49,622 - INFO - analysis_textblob - Loading data from D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\data\preprocessed_articles.csv...
+2025-04-19 12:52:49,633 - INFO - analysis_textblob - Successfully loaded data. Shape: (129, 4)
+2025-04-19 12:52:49,633 - INFO - analysis_textblob - Performing TextBlob Sentiment Analysis...
+2025-04-19 12:52:49,849 - INFO - analysis_textblob - TextBlob sentiment analysis complete.
+2025-04-19 12:52:49,849 - INFO - analysis_textblob - Performing Word Frequency Analysis (Top 30)...
+2025-04-19 12:52:49,859 - INFO - analysis_textblob - Word frequency analysis complete. Found 8954 unique words (after filtering).
+2025-04-19 12:52:49,860 - INFO - analysis_textblob - Analyzing Ideological Term Frequency...
+2025-04-19 12:52:51,827 - INFO - analysis_textblob - Ideological term frequency analysis complete.
+2025-04-19 12:52:51,827 - INFO - analysis_textblob - Analyzing Sentiment Towards Political Parties (TextBlob - Sentence Level)...
+2025-04-19 12:52:51,857 - INFO - analysis_textblob - Processing party sentiment in article 10/129
+2025-04-19 12:52:51,890 - INFO - analysis_textblob - Processing party sentiment in article 20/129
+2025-04-19 12:52:51,913 - INFO - analysis_textblob - Processing party sentiment in article 30/129
+2025-04-19 12:52:51,931 - INFO - analysis_textblob - Processing party sentiment in article 40/129
+2025-04-19 12:52:51,956 - INFO - analysis_textblob - Processing party sentiment in article 50/129
+2025-04-19 12:52:51,991 - INFO - analysis_textblob - Processing party sentiment in article 60/129
+2025-04-19 12:52:51,997 - INFO - analysis_textblob - Processing party sentiment in article 70/129
+2025-04-19 12:52:52,003 - INFO - analysis_textblob - Processing party sentiment in article 80/129
+2025-04-19 12:52:52,021 - INFO - analysis_textblob - Processing party sentiment in article 90/129
+2025-04-19 12:52:52,029 - INFO - analysis_textblob - Processing party sentiment in article 100/129
+2025-04-19 12:52:52,035 - INFO - analysis_textblob - Processing party sentiment in article 110/129
+2025-04-19 12:52:52,046 - INFO - analysis_textblob - Processing party sentiment in article 120/129
+2025-04-19 12:52:52,071 - INFO - analysis_textblob - Processing party sentiment in article 129/129
+2025-04-19 12:52:52,071 - INFO - analysis_textblob - Party sentiment analysis (TextBlob - Sentence Level) complete.
+2025-04-19 12:52:52,071 - INFO - analysis_textblob - Performing Named Entity Recognition (NER)...
+2025-04-19 12:52:52,071 - WARNING - analysis_textblob - NER is being performed on 'processed_text'. Results may be less accurate than on original text.
+2025-04-19 12:52:52,370 - INFO - analysis_textblob - Processing NER in article 10/129
+2025-04-19 12:52:52,908 - INFO - analysis_textblob - Processing NER in article 20/129
+2025-04-19 12:52:53,245 - INFO - analysis_textblob - Processing NER in article 30/129
+2025-04-19 12:52:53,500 - INFO - analysis_textblob - Processing NER in article 40/129
+2025-04-19 12:52:53,828 - INFO - analysis_textblob - Processing NER in article 50/129
+2025-04-19 12:52:54,408 - INFO - analysis_textblob - Processing NER in article 60/129
+2025-04-19 12:52:55,126 - INFO - analysis_textblob - Processing NER in article 70/129
+2025-04-19 12:52:55,844 - INFO - analysis_textblob - Processing NER in article 80/129
+2025-04-19 12:52:56,530 - INFO - analysis_textblob - Processing NER in article 90/129
+2025-04-19 12:52:57,192 - INFO - analysis_textblob - Processing NER in article 100/129
+2025-04-19 12:52:57,810 - INFO - analysis_textblob - Processing NER in article 110/129
+2025-04-19 12:52:58,169 - INFO - analysis_textblob - Processing NER in article 120/129
+2025-04-19 12:52:58,529 - INFO - analysis_textblob - Processing NER in article 129/129
+2025-04-19 12:52:58,536 - INFO - analysis_textblob - NER analysis complete.
+2025-04-19 12:52:58,536 - INFO - analysis_textblob - Performing Topic Modeling (LDA) with 10 topics...
+2025-04-19 12:52:58,571 - INFO - analysis_textblob - Fitting topic model...
+2025-04-19 12:53:00,123 - INFO - analysis_textblob - Topic model fitting complete.
+2025-04-19 12:53:00,125 - INFO - analysis_textblob - Topic 1: fourth 48 india leading 36 cm 22 13 27 2013
+2025-04-19 12:53:00,126 - INFO - analysis_textblob - Topic 4: woman politics predicted guptas leadership idea elected appointment sense decision
+2025-04-19 12:53:00,126 - INFO - analysis_textblob - Topic 5: political politics aaps bjps governance class india power public national
+2025-04-19 12:53:00,126 - INFO - analysis_textblob - Topic 7: water yamuna editorial drinking quality river india supply body day
+2025-04-19 12:53:00,127 - INFO - analysis_textblob - Topic modeling complete.
+2025-04-19 12:53:00,127 - INFO - analysis_textblob - Performing Topic Modeling (NMF) with 10 topics...
+2025-04-19 12:53:00,168 - INFO - analysis_textblob - Fitting topic model...
+2025-04-19 12:53:00,220 - INFO - analysis_textblob - Topic model fitting complete.
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Topic 1: share win aaps sabha muslim lok term secured kejriwals pm
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Topic 2: political politics governance power model india story ad continues citizen
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Topic 3: water yamuna river quality drinking supply centre body need cm
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Topic 4: woman politics student guptas leadership bjps singh appointment community municipal
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Topic 6: predicted exit percent gave majority least 36 share india 13
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Topic 8: class middle middleclass india budget tax demand today core income
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Topic 9: air pollution public ncr say road must issue policy promised
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Topic modeling complete.
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Performing Omission Analysis Proxy (Keyword Presence)...
+2025-04-19 12:53:00,221 - WARNING - analysis_textblob - OMISSION_TOPICS keywords not defined in config. Skipping omission analysis.
+2025-04-19 12:53:00,221 - INFO - analysis_textblob - Performing Statistical Tests on TextBlob Polarity...
+2025-04-19 12:53:00,224 - INFO - analysis_textblob - Running ANOVA on polarity across 9 outlets...
+2025-04-19 12:53:00,224 - INFO - analysis_textblob - {'f_statistic': 10.328772151268536, 'p_value': 6.783287285788782e-11, 'interpretation': 'ANOVA comparing mean TextBlob polarity across outlets: Significant difference (p < 0.05).'}
+2025-04-19 12:53:00,227 - INFO - analysis_textblob - Running T-test comparing polarity between 'IndianExpress' and 'TheHindu'...
+2025-04-19 12:53:00,227 - INFO - analysis_textblob - {'t_statistic': 0.9535055861143588, 'p_value': 0.3700016503365666, 'interpretation': 'T-test comparing mean TextBlob polarity (IndianExpress vs TheHindu): No significant difference (p >= 0.05).'}
+2025-04-19 12:53:00,227 - INFO - analysis_textblob - Analyzing Ideological Term Frequency...
+2025-04-19 12:53:00,248 - INFO - analysis_textblob - Ideological term frequency analysis complete.
+2025-04-19 12:53:00,248 - INFO - analysis_textblob - Running Chi-squared test for 'pro_bjp_modi' vs 'critical_bjp_modi' presence across 6 outlets...
+2025-04-19 12:53:00,248 - INFO - analysis_textblob - {'chi2_statistic': 9.27692307692308, 'p_value': 0.09851549385474567, 'degrees_of_freedom': 5, 'interpretation': "Chi-squared test comparing distribution of 'pro_bjp_modi' vs 'critical_bjp_modi' terms across outlets: No significant difference (p >= 0.05)."}
+2025-04-19 12:53:00,248 - INFO - analysis_textblob - Statistical tests complete.
+2025-04-19 12:53:00,248 - INFO - analysis_textblob - Generating visualizations (TextBlob)...
+2025-04-19 12:53:00,592 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_polarity_dist_outlet.png
+2025-04-19 12:53:00,826 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_avg_polarity_outlet.png
+2025-04-19 12:53:01,079 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_subjectivity_dist_outlet.png
+2025-04-19 12:53:01,502 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_wordcloud_overall.png
+2025-04-19 12:53:01,757 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_ner_top_persons.png
+2025-04-19 12:53:02,088 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_ner_top_orgs.png
+2025-04-19 12:53:02,268 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_avg_polarity_per_party_sentence.png
+2025-04-19 12:53:02,280 - INFO - analysis_textblob - Visualizations generation complete (TextBlob).
+2025-04-19 12:53:02,280 - INFO - analysis_textblob - Saving analysis results (TextBlob)...
+2025-04-19 12:53:02,288 - INFO - analysis_textblob - Saved main dataframe with TextBlob scores.
+2025-04-19 12:53:02,289 - INFO - analysis_textblob - Saved average TextBlob polarity per outlet.
+2025-04-19 12:53:02,289 - INFO - analysis_textblob - Saved overall top words.
+2025-04-19 12:53:02,290 - INFO - analysis_textblob - Saved ideological term counts.
+2025-04-19 12:53:02,292 - INFO - analysis_textblob - Saved NER results.
+2025-04-19 12:53:02,293 - INFO - analysis_textblob - Saved average party sentiment (sentence level).
+2025-04-19 12:53:02,293 - INFO - analysis_textblob - Saved topic modeling results.
+2025-04-19 12:53:02,293 - INFO - analysis_textblob - Saved statistical test results.
+2025-04-19 12:53:02,293 - INFO - analysis_textblob - All available results saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results
+2025-04-19 12:53:02,293 - INFO - analysis_textblob - Detailed logs available in D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\logs\analysis_textblob.log
+2025-04-19 12:53:02,293 - INFO - analysis_textblob - --- Finished TextBlob Analysis Pipeline ---
+2025-04-19 14:24:49,499 - INFO - analysis_textblob - NLTK data 'wordnet' not found. Attempting download...
+2025-04-19 14:24:49,739 - INFO - analysis_textblob - NLTK data 'wordnet' downloaded successfully.
+2025-04-19 14:24:50,009 - INFO - analysis_textblob - spaCy model 'en_core_web_sm' loaded successfully.
+2025-04-19 14:24:50,009 - INFO - analysis_textblob - --- Starting TextBlob Analysis Pipeline ---
+2025-04-19 14:24:50,009 - INFO - analysis_textblob - Loading data from D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\data\preprocessed_articles.csv...
+2025-04-19 14:24:50,014 - INFO - analysis_textblob - Successfully loaded data. Shape: (76, 4)
+2025-04-19 14:24:50,015 - INFO - analysis_textblob - Performing TextBlob Sentiment Analysis...
+2025-04-19 14:24:50,156 - INFO - analysis_textblob - TextBlob sentiment analysis complete.
+2025-04-19 14:24:50,157 - INFO - analysis_textblob - Performing Word Frequency Analysis (Top 30)...
+2025-04-19 14:24:50,161 - INFO - analysis_textblob - Word frequency analysis complete. Found 6017 unique words (after filtering).
+2025-04-19 14:24:50,162 - INFO - analysis_textblob - Analyzing Ideological Term Frequency...
+2025-04-19 14:24:52,023 - INFO - analysis_textblob - Ideological term frequency analysis complete.
+2025-04-19 14:24:52,023 - INFO - analysis_textblob - Analyzing Sentiment Towards Political Parties (TextBlob - Sentence Level)...
+2025-04-19 14:24:52,055 - INFO - analysis_textblob - Processing party sentiment in article 10/76
+2025-04-19 14:24:52,087 - INFO - analysis_textblob - Processing party sentiment in article 20/76
+2025-04-19 14:24:52,110 - INFO - analysis_textblob - Processing party sentiment in article 30/76
+2025-04-19 14:24:52,128 - INFO - analysis_textblob - Processing party sentiment in article 40/76
+2025-04-19 14:24:52,153 - INFO - analysis_textblob - Processing party sentiment in article 50/76
+2025-04-19 14:24:52,185 - INFO - analysis_textblob - Processing party sentiment in article 60/76
+2025-04-19 14:24:52,201 - INFO - analysis_textblob - Processing party sentiment in article 70/76
+2025-04-19 14:24:52,218 - INFO - analysis_textblob - Processing party sentiment in article 76/76
+2025-04-19 14:24:52,218 - INFO - analysis_textblob - Party sentiment analysis (TextBlob - Sentence Level) complete.
+2025-04-19 14:24:52,219 - INFO - analysis_textblob - Performing Named Entity Recognition (NER)...
+2025-04-19 14:24:52,219 - WARNING - analysis_textblob - NER is being performed on 'processed_text'. Results may be less accurate than on original text.
+2025-04-19 14:24:52,533 - INFO - analysis_textblob - Processing NER in article 10/76
+2025-04-19 14:24:53,060 - INFO - analysis_textblob - Processing NER in article 20/76
+2025-04-19 14:24:53,388 - INFO - analysis_textblob - Processing NER in article 30/76
+2025-04-19 14:24:53,645 - INFO - analysis_textblob - Processing NER in article 40/76
+2025-04-19 14:24:53,989 - INFO - analysis_textblob - Processing NER in article 50/76
+2025-04-19 14:24:54,440 - INFO - analysis_textblob - Processing NER in article 60/76
+2025-04-19 14:24:54,758 - INFO - analysis_textblob - Processing NER in article 70/76
+2025-04-19 14:24:55,015 - INFO - analysis_textblob - Processing NER in article 76/76
+2025-04-19 14:24:55,023 - INFO - analysis_textblob - NER analysis complete.
+2025-04-19 14:24:55,023 - INFO - analysis_textblob - Performing Topic Modeling (LDA) with 10 topics...
+2025-04-19 14:24:55,040 - INFO - analysis_textblob - Fitting topic model...
+2025-04-19 14:24:56,840 - INFO - analysis_textblob - Topic model fitting complete.
+2025-04-19 14:24:56,840 - INFO - analysis_textblob - Topic 0: politics win woman muslim first national aaps term may promise
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic 1: woman bjps leadership predicted guptas student politics rss singh appointment
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic 2: political politics governance power class aaps welfare public citizen middle
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic 3: politics political punjab challenge free may singh change promise model
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic 4: political public politics air pollution centre per power service case
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic 5: class middle share 2020 middleclass aaps sabha india lok budget
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic 6: india elected three public power former road centre issue must
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic 7: air road poor pollution municipal promised indian need civic body
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic 8: water yamuna quality day drinking tap supply india river almost
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic 9: percent share bjps singh deletion list number kejriwals victory sabha
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Topic modeling complete.
+2025-04-19 14:24:56,841 - INFO - analysis_textblob - Performing Topic Modeling (NMF) with 10 topics...
+2025-04-19 14:24:56,863 - INFO - analysis_textblob - Fitting topic model...
+2025-04-19 14:24:56,902 - INFO - analysis_textblob - Topic model fitting complete.
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 0: political politics governance model citizen india ad continues story youth
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 1: share win secured 2020 aaps kejriwals first last term modis
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 2: class middle middleclass budget india tax demand today core income
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 3: water air yamuna river pollution public drinking road quality tap
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 4: predicted exit mind brink weepreside gave percent majority simple 36
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 5: woman guptas student leadership politics appointment rss bjps municipal singh
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 6: centre setting term governance clinic power country mohalla school success
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 7: twitter linkedin email facebook expressed full view read interesting disclaimer
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 8: muslim say community pm another former watch constituency job rally
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic 9: percent deletion january booth list singh number mp cm name
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Topic modeling complete.
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Performing Omission Analysis Proxy (Keyword Presence)...
+2025-04-19 14:24:56,903 - WARNING - analysis_textblob - OMISSION_TOPICS keywords not defined in config. Skipping omission analysis.
+2025-04-19 14:24:56,903 - INFO - analysis_textblob - Performing Statistical Tests on TextBlob Polarity...
+2025-04-19 14:24:56,905 - INFO - analysis_textblob - Running ANOVA on polarity across 8 outlets...
+2025-04-19 14:24:56,906 - INFO - analysis_textblob - {'f_statistic': 0.8783929783071172, 'p_value': 0.5283202454041983, 'interpretation': 'ANOVA comparing mean TextBlob polarity across outlets: No significant difference (p >= 0.05).'}
+2025-04-19 14:24:56,907 - INFO - analysis_textblob - Running T-test comparing polarity between 'IndianExpress' and 'TheHindu'...
+2025-04-19 14:24:56,907 - INFO - analysis_textblob - {'t_statistic': 0.9535055861143588, 'p_value': 0.3700016503365666, 'interpretation': 'T-test comparing mean TextBlob polarity (IndianExpress vs TheHindu): No significant difference (p >= 0.05).'}
+2025-04-19 14:24:56,907 - INFO - analysis_textblob - Analyzing Ideological Term Frequency...
+2025-04-19 14:24:56,916 - INFO - analysis_textblob - Ideological term frequency analysis complete.
+2025-04-19 14:24:56,916 - INFO - analysis_textblob - Running Chi-squared test for 'pro_bjp_modi' vs 'critical_bjp_modi' presence across 6 outlets...
+2025-04-19 14:24:56,916 - INFO - analysis_textblob - {'chi2_statistic': 9.27692307692308, 'p_value': 0.09851549385474567, 'degrees_of_freedom': 5, 'interpretation': "Chi-squared test comparing distribution of 'pro_bjp_modi' vs 'critical_bjp_modi' terms across outlets: No significant difference (p >= 0.05)."}
+2025-04-19 14:24:56,916 - INFO - analysis_textblob - Statistical tests complete.
+2025-04-19 14:24:56,917 - INFO - analysis_textblob - Generating visualizations (TextBlob)...
+2025-04-19 14:24:57,289 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_polarity_dist_outlet.png
+2025-04-19 14:24:57,508 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_avg_polarity_outlet.png
+2025-04-19 14:24:57,762 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_subjectivity_dist_outlet.png
+2025-04-19 14:24:58,291 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_wordcloud_overall.png
+2025-04-19 14:24:58,626 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_ner_top_persons.png
+2025-04-19 14:24:58,929 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_ner_top_orgs.png
+2025-04-19 14:24:59,176 - INFO - analysis_textblob - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\textblob_avg_polarity_per_party_sentence.png
+2025-04-19 14:24:59,188 - INFO - analysis_textblob - Visualizations generation complete (TextBlob).
+2025-04-19 14:24:59,188 - INFO - analysis_textblob - Saving analysis results (TextBlob)...
+2025-04-19 14:24:59,192 - INFO - analysis_textblob - Saved main dataframe with TextBlob scores.
+2025-04-19 14:24:59,193 - INFO - analysis_textblob - Saved average TextBlob polarity per outlet.
+2025-04-19 14:24:59,194 - INFO - analysis_textblob - Saved overall top words.
+2025-04-19 14:24:59,195 - INFO - analysis_textblob - Saved ideological term counts.
+2025-04-19 14:24:59,196 - INFO - analysis_textblob - Saved NER results.
+2025-04-19 14:24:59,197 - INFO - analysis_textblob - Saved average party sentiment (sentence level).
+2025-04-19 14:24:59,199 - INFO - analysis_textblob - Saved topic modeling results.
+2025-04-19 14:24:59,199 - INFO - analysis_textblob - Saved statistical test results.
+2025-04-19 14:24:59,199 - INFO - analysis_textblob - All available results saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results
+2025-04-19 14:24:59,199 - INFO - analysis_textblob - Detailed logs available in D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\logs\analysis_textblob.log
+2025-04-19 14:24:59,199 - INFO - analysis_textblob - --- Finished TextBlob Analysis Pipeline ---

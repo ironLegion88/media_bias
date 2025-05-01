@@ -50,3 +50,73 @@ AttributeError: module 'nltk.downloader' has no attribute 'DownloadError'
 2025-04-14 07:41:31,058 - ERROR - Pipeline halted due to error in src.preprocessing.
 2025-04-14 07:41:31,059 - ERROR - ======== Pipeline Failed after 430.94 seconds ========
 2025-04-14 07:41:31,059 - INFO - Check individual logs in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\logs' and results in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results'.
+2025-04-19 12:52:26,774 - INFO - ======== Starting Media Bias Analysis Pipeline ========
+2025-04-19 12:52:26,775 - INFO - --- Executing module: src.preprocessing ---
+2025-04-19 12:52:31,406 - INFO - Successfully executed src.preprocessing in 4.63 seconds.
+2025-04-19 12:52:31,406 - INFO - --------------------------------------------------
+2025-04-19 12:52:31,406 - INFO - --- Executing module: src.analysis_vader ---
+2025-04-19 12:52:47,627 - INFO - Successfully executed src.analysis_vader in 16.22 seconds.
+2025-04-19 12:52:47,636 - INFO - --------------------------------------------------
+2025-04-19 12:52:47,637 - INFO - --- Executing module: src.analysis_textblob ---
+2025-04-19 12:53:02,986 - INFO - Successfully executed src.analysis_textblob in 15.35 seconds.
+2025-04-19 12:53:02,993 - INFO - --------------------------------------------------
+2025-04-19 12:53:02,993 - INFO - ======== Pipeline Completed Successfully in 36.22 seconds ========
+2025-04-19 12:53:02,994 - INFO - Check individual logs in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\logs' and results in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results'.
+2025-04-19 14:24:35,527 - INFO - ======== Starting Media Bias Analysis Pipeline ========
+2025-04-19 14:24:35,527 - INFO - --- Executing module: src.analysis_vader ---
+2025-04-19 14:24:47,669 - INFO - Successfully executed src.analysis_vader in 12.14 seconds.
+2025-04-19 14:24:47,669 - WARNING - Stderr from src.analysis_vader:
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:645: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(data=df, x='outlet', y='vader_compound', palette='viridis')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:705: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=ner_df, y='Person', x='Count', palette='coolwarm')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:713: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=ner_df, y='Organization', x='Count', palette='coolwarm')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:724: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=party_sentiment_df.index, y=party_sentiment_df['average_vader_compound'], palette='crest')
+
+2025-04-19 14:24:47,669 - INFO - --------------------------------------------------
+2025-04-19 14:24:47,669 - INFO - --- Executing module: src.analysis_textblob ---
+2025-04-19 14:24:59,829 - INFO - Successfully executed src.analysis_textblob in 12.16 seconds.
+2025-04-19 14:24:59,829 - WARNING - Stderr from src.analysis_textblob:
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:507: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(data=df, x='outlet', y=sentiment_col, palette='viridis')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:531: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.boxplot(data=df, x='outlet', y='subjectivity', palette='magma')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:557: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  plt.figure(figsize=(12, 8)); sns.barplot(data=ner_df, y='Person', x='Count', palette='coolwarm')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:562: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  plt.figure(figsize=(12, 8)); sns.barplot(data=ner_df, y='Organization', x='Count', palette='coolwarm')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:572: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=party_sentiment_df.index, y=party_sentiment_df['average_polarity'], palette='crest')
+
+2025-04-19 14:24:59,830 - INFO - --------------------------------------------------
+2025-04-19 14:24:59,830 - INFO - ======== Pipeline Completed Successfully in 24.30 seconds ========
+2025-04-19 14:24:59,831 - INFO - Check individual logs in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\logs' and results in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results'.

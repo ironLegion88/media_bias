@@ -1,0 +1,255 @@
+{
+    "term_counts_overall": {
+        "pro_bjp_modi": {
+            "hindutva": 9,
+            "reform": 2,
+            "masterstroke": 1,
+            "nationalism": 1
+        },
+        "pro_aap_kejriwal": {
+            "welfare": 42
+        },
+        "critical_bjp_modi": {
+            "communal": 2,
+            "polarisation": 2,
+            "majoritarian": 1
+        },
+        "critical_aap_kejriwal": {
+            "corruption": 42,
+            "freebie": 23,
+            "revdi": 2,
+            "anarchy": 2,
+            "mismanagement": 2,
+            "doublespeak": 1,
+            "theatrics": 4,
+            "populism": 4
+        },
+        "neutral_governance": {
+            "administration": 6,
+            "infrastructure": 24,
+            "lg": 10,
+            "mandate": 15,
+            "manifesto": 13,
+            "mcd": 9
+        },
+        "emotive_political": {
+            "controversy": 6,
+            "rout": 4,
+            "setback": 6,
+            "decimation": 1,
+            "betrayal": 4,
+            "scandal": 5,
+            "landslide": 6,
+            "battleground": 1
+        }
+    },
+    "term_counts_per_outlet": {
+        "IndianExpress": {
+            "pro_bjp_modi": {
+                "hindutva": 1
+            },
+            "pro_aap_kejriwal": {
+                "welfare": 14
+            },
+            "critical_bjp_modi": {
+                "communal": 1,
+                "polarisation": 1,
+                "majoritarian": 1
+            },
+            "critical_aap_kejriwal": {
+                "corruption": 15,
+                "freebie": 7,
+                "revdi": 1,
+                "anarchy": 2,
+                "mismanagement": 2,
+                "doublespeak": 1,
+                "theatrics": 2
+            },
+            "neutral_governance": {
+                "administration": 5,
+                "infrastructure": 8,
+                "lg": 7,
+                "mandate": 9,
+                "manifesto": 4,
+                "mcd": 1
+            },
+            "emotive_political": {
+                "controversy": 2,
+                "rout": 1,
+                "setback": 3,
+                "decimation": 1,
+                "betrayal": 3,
+                "scandal": 2
+            }
+        },
+        "TheHindu": {
+            "pro_bjp_modi": {},
+            "pro_aap_kejriwal": {
+                "welfare": 6
+            },
+            "critical_bjp_modi": {},
+            "critical_aap_kejriwal": {
+                "populism": 2,
+                "corruption": 4,
+                "freebie": 1,
+                "revdi": 1
+            },
+            "neutral_governance": {
+                "infrastructure": 3
+            },
+            "emotive_political": {
+                "setback": 1
+            }
+        },
+        "NewsLaundry": {
+            "pro_bjp_modi": {
+                "hindutva": 2
+            },
+            "pro_aap_kejriwal": {
+                "welfare": 5
+            },
+            "critical_bjp_modi": {
+                "polarisation": 1,
+                "communal": 1
+            },
+            "critical_aap_kejriwal": {
+                "populism": 1,
+                "freebie": 4,
+                "corruption": 3
+            },
+            "neutral_governance": {
+                "infrastructure": 2,
+                "lg": 2,
+                "mandate": 1,
+                "mcd": 1,
+                "manifesto": 4
+            },
+            "emotive_political": {
+                "controversy": 1,
+                "landslide": 3
+            }
+        },
+        "NDTV": {
+            "pro_bjp_modi": {
+                "reform": 1,
+                "hindutva": 3
+            },
+            "pro_aap_kejriwal": {
+                "welfare": 3
+            },
+            "critical_bjp_modi": {},
+            "critical_aap_kejriwal": {
+                "corruption": 10,
+                "theatrics": 2,
+                "freebie": 7
+            },
+            "neutral_governance": {
+                "infrastructure": 5,
+                "mcd": 4,
+                "mandate": 3,
+                "manifesto": 4
+            },
+            "emotive_political": {
+                "setback": 1,
+                "rout": 3,
+                "landslide": 3,
+                "scandal": 2,
+                "controversy": 3
+            }
+        },
+        "Republic": {
+            "pro_bjp_modi": {
+                "masterstroke": 1,
+                "nationalism": 1
+            },
+            "pro_aap_kejriwal": {},
+            "critical_bjp_modi": {},
+            "critical_aap_kejriwal": {
+                "corruption": 1
+            },
+            "neutral_governance": {},
+            "emotive_political": {
+                "battleground": 1
+            }
+        },
+        "AajTak": {
+            "pro_bjp_modi": {},
+            "pro_aap_kejriwal": {},
+            "critical_bjp_modi": {},
+            "critical_aap_kejriwal": {
+                "corruption": 2
+            },
+            "neutral_governance": {
+                "mcd": 2
+            },
+            "emotive_political": {}
+        },
+        "TimesOfIndia": {
+            "pro_bjp_modi": {},
+            "pro_aap_kejriwal": {
+                "welfare": 2
+            },
+            "critical_bjp_modi": {},
+            "critical_aap_kejriwal": {
+                "corruption": 1
+            },
+            "neutral_governance": {
+                "infrastructure": 1,
+                "mcd": 1,
+                "mandate": 1,
+                "lg": 1
+            },
+            "emotive_political": {}
+        },
+        "HindusanTimes": {
+            "pro_bjp_modi": {
+                "hindutva": 3
+            },
+            "pro_aap_kejriwal": {
+                "welfare": 10
+            },
+            "critical_bjp_modi": {},
+            "critical_aap_kejriwal": {
+                "freebie": 2,
+                "corruption": 6
+            },
+            "neutral_governance": {
+                "infrastructure": 1,
+                "manifesto": 1,
+                "administration": 1,
+                "mandate": 1
+            },
+            "emotive_political": {
+                "betrayal": 1,
+                "setback": 1
+            }
+        },
+        "Mint": {
+            "pro_bjp_modi": {
+                "reform": 1
+            },
+            "pro_aap_kejriwal": {
+                "welfare": 2
+            },
+            "critical_bjp_modi": {},
+            "critical_aap_kejriwal": {
+                "populism": 1,
+                "freebie": 2
+            },
+            "neutral_governance": {
+                "infrastructure": 4
+            },
+            "emotive_political": {
+                "scandal": 1
+            }
+        },
+        "BusinessStandard": {
+            "pro_bjp_modi": {},
+            "pro_aap_kejriwal": {},
+            "critical_bjp_modi": {},
+            "critical_aap_kejriwal": {},
+            "neutral_governance": {},
+            "emotive_political": {}
+        }
+    }
+}

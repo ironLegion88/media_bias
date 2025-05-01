@@ -1,0 +1,18 @@
+{
+    "ANOVA_sentiment_by_outlet": {
+        "f_statistic": 0.945725328527512,
+        "p_value": 0.4778197476202467,
+        "interpretation": "ANOVA comparing mean VADER sentiment across outlets: No significant difference (p >= 0.05)."
+    },
+    "TTest_IndianExpress_vs_TheHindu": {
+        "t_statistic": -1.7876907504482231,
+        "p_value": 0.08713951068387515,
+        "interpretation": "T-test comparing mean VADER sentiment (IndianExpress vs TheHindu): No significant difference (p >= 0.05)."
+    },
+    "Chi2_BJP_Terms_by_Outlet": {
+        "chi2_statistic": 9.27692307692308,
+        "p_value": 0.09851549385474567,
+        "degrees_of_freedom": 5,
+        "interpretation": "Chi-squared test comparing distribution of 'pro_bjp_modi' vs 'critical_bjp_modi' terms across outlets: No significant difference (p >= 0.05)."
+    }
+}

@@ -47,17 +47,58 @@ if not logger.hasHandlers():
 # --- Download necessary NLTK data ---
 def download_nltk_data():
     """Downloads required NLTK models if they don't exist."""
-    required_nltk_data = ['punkt', 'stopwords', 'wordnet', 'vader_lexicon']
+    # Define required data for each script specifically if they differ,
+    # or use a common list if they are the same.
+    # For preprocessing:
+    required_nltk_data = ['punkt', 'stopwords', 'wordnet']
+    # Add 'vader_lexicon' for analysis_vader.py
+    # Add 'averaged_perceptron_tagger', 'brown' for analysis_textblob.py
+
+    # --- Determine which script is running to customize downloads ---
+    # (This is slightly advanced, simpler to just list all potentially needed)
+    # import inspect
+    # caller_filename = os.path.basename(inspect.stack()[1].filename)
+    # if caller_filename == 'analysis_vader.py':
+    #     required_nltk_data.append('vader_lexicon')
+    # elif caller_filename == 'analysis_textblob.py':
+    #     required_nltk_data.extend(['averaged_perceptron_tagger', 'brown'])
+
+    # --- OR simpler: Just list all possible requirements across scripts ---
+    required_nltk_data = ['punkt', 'stopwords', 'wordnet', 'vader_lexicon', 'averaged_perceptron_tagger', 'brown']
+
+
     for item in required_nltk_data:
         try:
-            if item == 'vader_lexicon':
-                 nltk.data.find(f'sentiment/{item}.zip')
-            else:
-                nltk.data.find(f'tokenizers/{item}' if item == 'punkt' else f'corpora/{item}')
-        except (LookupError, nltk.downloader.DownloadError):
-            logger.info(f"NLTK data '{item}' not found or outdated. Downloading...")
-            nltk.download(item, quiet=True)
+            # Define resource path based on item type
+            if item == 'punkt':
+                path = f'tokenizers/{item}'
+            elif item == 'vader_lexicon':
+                path = f'sentiment/{item}.zip' # VADER data might be zipped
+            elif item == 'averaged_perceptron_tagger':
+                 path = f'taggers/{item}'
+            else: # stopwords, wordnet, brown are corpora
+                path = f'corpora/{item}'
 
+            # Check if resource exists
+            nltk.data.find(path)
+            logger.debug(f"NLTK data '{item}' found.")
+
+        except LookupError: # Catch the actual error when resource is not found
+            logger.info(f"NLTK data '{item}' not found. Attempting download...")
+            try:
+                nltk.download(item, quiet=True)
+                logger.info(f"NLTK data '{item}' downloaded successfully.")
+                # Optional: Verify download again (might be overkill)
+                # nltk.data.find(path)
+            except Exception as e:
+                # Catch potential errors during download (network issues, etc.)
+                logger.error(f"Failed to download NLTK data '{item}'. Error: {e}")
+                # Depending on the resource, you might want to exit or continue with reduced functionality
+                if item in ['punkt', 'stopwords', 'wordnet']: # Critical for basic processing
+                     logger.error(f"Critical NLTK resource '{item}' missing. Exiting.")
+                     # sys.exit(1) # Uncomment to make it stop the script
+
+# Call the function at the start of the script (as it was before)
 download_nltk_data()
 
 # --- Load spaCy Model ---
