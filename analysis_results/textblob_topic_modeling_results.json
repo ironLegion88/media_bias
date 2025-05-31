@@ -1,26 +1,26 @@
 {
-    "lda_topics": {
-        "0": "politics win woman muslim first national aaps term may promise",
-        "1": "woman bjps leadership predicted guptas student politics rss singh appointment",
-        "2": "political politics governance power class aaps welfare public citizen middle",
-        "3": "politics political punjab challenge free may singh change promise model",
-        "4": "political public politics air pollution centre per power service case",
-        "5": "class middle share 2020 middleclass aaps sabha india lok budget",
-        "6": "india elected three public power former road centre issue must",
-        "7": "air road poor pollution municipal promised indian need civic body",
-        "8": "water yamuna quality day drinking tap supply india river almost",
-        "9": "percent share bjps singh deletion list number kejriwals victory sabha"
+    "lda": {
+        "0": "politics political governance bjps leadership woman aaps national challenge power",
+        "1": "governance middleclass class political middle economic urban power democracy promise",
+        "2": "water air pollution public road promised editorial quality issue must",
+        "3": "muslim share community win percent bjps 2020 aaps campaign sabha",
+        "4": "middle class welfare aaps national india last sabha budget tax",
+        "5": "india three power gave municipal majority day third body february",
+        "6": "class political share middle india identity kejriwals 2020 campaign much",
+        "7": "water former lok aaps sabha kejriwals centre yamuna candidate class",
+        "8": "elected centre constituency nagar sikh resident issue decision case lg",
+        "9": "politics political woman power win centre national story public many"
     },
-    "nmf_topics": {
-        "0": "political politics governance model citizen india ad continues story youth",
-        "1": "share win secured 2020 aaps kejriwals first last term modis",
-        "2": "class middle middleclass budget india tax demand today core income",
-        "3": "water air yamuna river pollution public drinking road quality tap",
-        "4": "predicted exit mind brink weepreside gave percent majority simple 36",
-        "5": "woman guptas student leadership politics appointment rss bjps municipal singh",
-        "6": "centre setting term governance clinic power country mohalla school success",
-        "7": "twitter linkedin email facebook expressed full view read interesting disclaimer",
-        "8": "muslim say community pm another former watch constituency job rally",
-        "9": "percent deletion january booth list singh number mp cm name"
+    "nmf": {
+        "0": "political politics governance model citizen ad india continues youth idea",
+        "1": "share win secured 2020 aaps first kejriwals promise 10 may",
+        "2": "class middle middleclass budget india tax demand today income core",
+        "3": "air pollution public road must financial policy construction network single",
+        "4": "muslim say former pm community campaign watch constituency another candidate",
+        "5": "woman guptas student leadership politics appointment bjps rss singh municipal",
+        "6": "percent gave number list share majority 36 least day 13",
+        "7": "linkedin twitter email facebook expressed full view read disclaimer contest",
+        "8": "water yamuna river quality drinking supply safe sewage cm india",
+        "9": "centre term governance power elected clinic country lg school mohalla"
     }
 }

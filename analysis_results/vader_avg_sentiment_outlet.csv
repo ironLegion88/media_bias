@@ -1,4 +1,4 @@
-outlet,average_vader_compound
+outlet,avg_vader_score
 NewsLaundry,0.5506
 TimesOfIndia,0.5714
 Mint,0.67995

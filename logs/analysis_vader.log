@@ -185,3 +185,87 @@
 2025-04-19 14:24:47,055 - INFO - analysis_vader - All available results saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results
 2025-04-19 14:24:47,055 - INFO - analysis_vader - Detailed logs available in D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\logs\analysis_vader.log
 2025-04-19 14:24:47,055 - INFO - analysis_vader - --- Finished VADER Analysis Pipeline ---
+2025-06-01 02:25:39,317 - INFO - analysis_vader - NLTK data 'wordnet' not found. Attempting download...
+2025-06-01 02:25:39,397 - INFO - analysis_vader - NLTK data 'wordnet' downloaded successfully.
+2025-06-01 02:25:39,707 - INFO - analysis_vader - spaCy model 'en_core_web_sm' loaded successfully.
+2025-06-01 02:25:39,707 - INFO - analysis_vader - --- Starting VADER Analysis Pipeline ---
+2025-06-01 02:25:39,707 - INFO - analysis_vader - Loading data from D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\data\preprocessed_articles.csv...
+2025-06-01 02:25:39,723 - INFO - analysis_vader - Successfully loaded data. Shape: (76, 4)
+2025-06-01 02:25:39,723 - INFO - analysis_vader - Performing VADER Sentiment Analysis...
+2025-06-01 02:25:39,896 - INFO - analysis_vader - VADER sentiment analysis complete.
+2025-06-01 02:25:39,896 - INFO - analysis_vader - Performing Word Frequency Analysis (Top 30)...
+2025-06-01 02:25:39,916 - INFO - analysis_vader - Word frequency analysis complete. Found 6018 unique words (after filtering).
+2025-06-01 02:25:39,916 - INFO - analysis_vader - Analyzing Ideological Term Frequency...
+2025-06-01 02:25:42,031 - INFO - analysis_vader - Ideological term frequency analysis complete.
+2025-06-01 02:25:42,031 - INFO - analysis_vader - Analyzing Sentiment Towards Political Parties (VADER - Sentence Level)...
+2025-06-01 02:25:42,187 - INFO - analysis_vader - Processing party sentiment in article 20/76
+2025-06-01 02:25:42,331 - INFO - analysis_vader - Processing party sentiment in article 40/76
+2025-06-01 02:25:42,472 - INFO - analysis_vader - Processing party sentiment in article 60/76
+2025-06-01 02:25:42,568 - INFO - analysis_vader - Processing party sentiment in article 76/76
+2025-06-01 02:25:42,570 - INFO - analysis_vader - Party sentence sentiment calculation (VADER) complete. Found 179 party mentions with sentiment.
+2025-06-01 02:25:42,570 - INFO - analysis_vader - Categorizing article sentiment towards parties using VADER scores...
+2025-06-01 02:25:42,574 - INFO - analysis_vader - Aggregation of categorized party sentiment complete.
+2025-06-01 02:25:42,581 - INFO - analysis_vader - Performing Named Entity Recognition (NER)...
+2025-06-01 02:25:42,581 - WARNING - analysis_vader - NER is being performed on 'processed_text'. Results may be less accurate than on original text.
+2025-06-01 02:25:43,478 - INFO - analysis_vader - Processing NER in article 20/76
+2025-06-01 02:25:44,082 - INFO - analysis_vader - Processing NER in article 40/76
+2025-06-01 02:25:44,929 - INFO - analysis_vader - Processing NER in article 60/76
+2025-06-01 02:25:45,508 - INFO - analysis_vader - Processing NER in article 76/76
+2025-06-01 02:25:45,508 - INFO - analysis_vader - NER analysis complete.
+2025-06-01 02:25:45,508 - INFO - analysis_vader - Performing Topic Modeling (LDA) with 10 topics...
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic model fitting complete.
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 0: politics political governance bjps leadership woman aaps national challenge power
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 1: governance middleclass class political middle economic urban power democracy promise
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 2: water air pollution public road promised editorial quality issue must
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 3: muslim share community win percent bjps 2020 aaps campaign sabha
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 4: middle class welfare aaps national india last sabha budget tax
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 5: india three power gave municipal majority day third body february
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 6: class political share middle india identity kejriwals 2020 campaign much
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 7: water former lok aaps sabha kejriwals centre yamuna candidate class
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 8: elected centre constituency nagar sikh resident issue decision case lg
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic 9: politics political woman power win centre national story public many
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Topic modeling complete.
+2025-06-01 02:25:47,376 - INFO - analysis_vader - Performing Topic Modeling (NMF) with 10 topics...
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic model fitting complete.
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 0: political politics governance model citizen ad india continues youth idea
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 1: share win secured 2020 aaps first kejriwals promise 10 may
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 2: class middle middleclass budget india tax demand today income core
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 3: air pollution public road must financial policy construction network single
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 4: muslim say former pm community campaign watch constituency another candidate
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 5: woman guptas student leadership politics appointment bjps rss singh municipal
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 6: percent gave number list share majority 36 least day 13
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 7: linkedin twitter email facebook expressed full view read disclaimer contest
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 8: water yamuna river quality drinking supply safe sewage cm india
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic 9: centre term governance power elected clinic country lg school mohalla
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Topic modeling complete.
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Performing Omission Analysis Proxy (Keyword Presence)...
+2025-06-01 02:25:47,438 - WARNING - analysis_vader - OMISSION_TOPICS not defined. Skipping.
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Performing Statistical Tests on VADER Sentiment...
+2025-06-01 02:25:47,438 - INFO - analysis_vader - Running ANOVA on sentiment across 8 outlets...
+2025-06-01 02:25:47,454 - INFO - analysis_vader - {'f': 0.945725328527512, 'p': 0.4778197476202467, 'interp': 'ANOVA (vader_compound): Not significant (p>=0.05).'}
+2025-06-01 02:25:47,454 - INFO - analysis_vader - T-test: vader_compound (IndianExpress vs TheHindu)...
+2025-06-01 02:25:47,454 - INFO - analysis_vader - {'t': -1.7876907504482231, 'p': 0.08713951068387515, 'interp': 'T-test (IndianExpress vs TheHindu): Not significant (p>=0.05).'}
+2025-06-01 02:25:47,454 - INFO - analysis_vader - Analyzing Ideological Term Frequency...
+2025-06-01 02:25:47,454 - INFO - analysis_vader - Ideological term frequency analysis complete.
+2025-06-01 02:25:47,454 - INFO - analysis_vader - Chi2 test: 'pro_bjp_modi' vs 'critical_bjp_modi' across 4 outlets...
+2025-06-01 02:25:47,470 - INFO - analysis_vader - {'chi2': 7.0, 'p': 0.07189777249646509, 'dof': 3, 'interp': "Chi2 ('pro_bjp_modi' vs 'critical_bjp_modi'): Not significant (p>=0.05)."}
+2025-06-01 02:25:47,470 - INFO - analysis_vader - Statistical tests complete.
+2025-06-01 02:25:47,470 - INFO - analysis_vader - Generating visualizations (VADER)...
+2025-06-01 02:25:48,030 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_sentiment_dist_outlet.png
+2025-06-01 02:25:48,494 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_avg_sentiment_outlet.png
+2025-06-01 02:25:49,139 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_wordcloud_overall.png
+2025-06-01 02:25:49,626 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_ner_top_persons.png
+2025-06-01 02:25:50,035 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_ner_top_orgs.png
+2025-06-01 02:25:50,408 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_vader_party_sentiment_categories_AAP_proportion.png
+2025-06-01 02:25:50,780 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_vader_party_sentiment_categories_BJP_proportion.png
+2025-06-01 02:25:51,098 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_vader_party_sentiment_categories_Congress_proportion.png
+2025-06-01 02:25:51,492 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_vader_party_sentiment_categories_AAP_count.png
+2025-06-01 02:25:51,843 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_vader_party_sentiment_categories_BJP_count.png
+2025-06-01 02:25:52,180 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_vader_party_sentiment_categories_Congress_count.png
+2025-06-01 02:25:52,628 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_vader_party_sentiment_distribution_AAP.png
+2025-06-01 02:25:52,995 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_vader_party_sentiment_distribution_Congress.png
+2025-06-01 02:25:53,428 - INFO - analysis_vader - Plot saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results\vader_vader_party_sentiment_distribution_BJP.png
+2025-06-01 02:25:53,538 - INFO - analysis_vader - Visualizations generation complete (VADER).
+2025-06-01 02:25:53,538 - INFO - analysis_vader - Saving vader_analysis results...
+2025-06-01 02:25:53,547 - INFO - analysis_vader - All available vader_results saved to D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results
+2025-06-01 02:25:53,547 - INFO - analysis_vader - --- Finished VADER Analysis Pipeline ---

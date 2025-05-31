@@ -1,5 +1,5 @@
 {
-    "top_persons_overall": [
+    "persons_overall": [
         [
             "lok sabha",
             34
@@ -37,14 +37,6 @@
             4
         ],
         [
-            "atishi",
-            4
-        ],
-        [
-            "delhi",
-            3
-        ],
-        [
             "mahatma gandhi",
             2
         ],
@@ -79,13 +71,17 @@
         [
             "sheila dikshit",
             2
+        ],
+        [
+            "bari",
+            2
+        ],
+        [
+            "nirmala sitharaman",
+            2
         ]
     ],
-    "top_orgs_overall": [
-        [
-            "congress",
-            179
-        ],
+    "orgs_overall": [
         [
             "delhi assembly",
             13
@@ -161,9 +157,13 @@
         [
             "defeat saffron",
             1
+        ],
+        [
+            "delhi assembly election aam aadmi party",
+            1
         ]
     ],
-    "ner_per_outlet": {
+    "per_outlet": {
         "IndianExpress": {
             "PERSON": {
                 "rekha gupta": 4,
@@ -182,7 +182,6 @@
                 "bhagwan basavanna": 1,
                 "jana": 1,
                 "narendra modi": 2,
-                "delhi": 1,
                 "jhuggi cluster city": 1,
                 "delhi tick": 1,
                 "delhi cm": 1,
@@ -226,7 +225,6 @@
             },
             "ORG": {
                 "guptas administration": 1,
-                "congress": 33,
                 "white house": 2,
                 "america internal external policy": 1,
                 "haryana assembly": 1,
@@ -279,7 +277,6 @@
                 "bihar haryana": 1,
                 "narendra": 2,
                 "kejriwal manish": 1,
-                "atishi": 1,
                 "sheila dikshit": 1,
                 "yogi": 1
             },
@@ -291,7 +288,6 @@
                 "ministry m guptas": 1,
                 "outcome delhi assembly": 1,
                 "corporation union urban development ministry delhi police union home ministry": 1,
-                "congress": 10,
                 "delhi much union": 1,
                 "sisodia": 1,
                 "standin": 1,
@@ -355,7 +351,6 @@
                 "colleague cm atishi": 1,
                 "raghav chadha": 1,
                 "saurabh bhardwaj": 1,
-                "atishi": 1,
                 "chadha": 1,
                 "cm atishi": 1
             },
@@ -364,7 +359,6 @@
                 "singh defeated aam aadmi party": 1,
                 "delhi crucial election aam aadmi party": 1,
                 "delhi assembly bjp": 1,
-                "congress": 34,
                 "deccan herald": 1,
                 "deccan chronicle": 1,
                 "congress definitive": 1,
@@ -388,7 +382,6 @@
                 "jangpura assembly": 1,
                 "house": 1,
                 "hindutva vision aam aadmi party": 1,
-                "kejriwal": 1,
                 "form6": 1
             }
         },
@@ -402,7 +395,6 @@
                 "rekha guptas": 1,
                 "delhi smog": 1,
                 "narendra modi": 1,
-                "delhi": 1,
                 "okhla mla amanatullah khan": 1,
                 "khan": 2,
                 "gandhi": 7,
@@ -420,7 +412,6 @@
                 "voter bjp juggernaut": 1,
                 "haryana maharashtra": 1,
                 "narendra modis": 2,
-                "kejriwal": 1,
                 "opportune time": 1,
                 "indira gandhi": 1,
                 "hindu rashtra": 2,
@@ -437,7 +428,6 @@
                 "rahul gandhi lok sabha": 1,
                 "sikh": 1,
                 "revolutionary transformed machiavellian": 1,
-                "atishi": 1,
                 "sikh granthis": 1,
                 "singh verma bjp": 1,
                 "corridoris line": 1,
@@ -454,7 +444,6 @@
                 "supreme court": 1,
                 "new delhi": 1,
                 "council delhi cantonment": 1,
-                "congress": 74,
                 "janata party": 6,
                 "electionsa charge party": 1,
                 "congress congress": 1,
@@ -494,15 +483,12 @@
                 "delhi bjp": 1,
                 "mahila morcha": 1,
                 "gupta helm": 1,
-                "delhi": 1,
                 "narendra modis": 1,
                 "delhi selection": 1
             },
             "ORG": {
-                "congress": 2,
                 "journey rekha guptas rise power": 1,
                 "prominence delhi university student union dusu": 1,
-                "state": 1,
                 "vandana": 1,
                 "leadership guptas": 1,
                 "rekha guptas challenge": 1,
@@ -534,7 +520,6 @@
                 "supreme court": 1,
                 "delhi govt": 1,
                 "bmc mumbai": 1,
-                "congress": 15,
                 "jagan reddys ysrcp andhra": 1,
                 "sisodia": 1,
                 "delhi assembly": 1
@@ -561,7 +546,6 @@
                 "covid19": 1,
                 "sheila dixit": 1,
                 "delhi demography": 1,
-                "atishi": 1,
                 "neelanjan": 1
             },
             "ORG": {
@@ -575,7 +559,6 @@
                 "gujarat congress main": 1,
                 "bharatiya janata party": 2,
                 "delhi assembly": 1,
-                "congress": 11,
                 "gujarat aam aadmi party": 1,
                 "delhi resident": 1,
                 "bathe clean yamuna 2025 yamuna": 1,

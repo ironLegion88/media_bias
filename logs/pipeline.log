@@ -120,3 +120,81 @@ Passing `palette` without assigning `hue` is deprecated and will be removed in v
 2025-04-19 14:24:59,830 - INFO - --------------------------------------------------
 2025-04-19 14:24:59,830 - INFO - ======== Pipeline Completed Successfully in 24.30 seconds ========
 2025-04-19 14:24:59,831 - INFO - Check individual logs in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\logs' and results in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results'.
+2025-06-01 02:25:36,855 - INFO - ======== Starting Media Bias Analysis Pipeline ========
+2025-06-01 02:25:36,855 - INFO - --- Executing module: src.analysis_vader ---
+2025-06-01 02:25:54,335 - INFO - Successfully executed src.analysis_vader in 17.48 seconds.
+2025-06-01 02:25:54,335 - WARNING - Stderr from src.analysis_vader:
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:441: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  plt.figure(figsize=(14, 8)); sns.boxplot(data=df_sentiment_scores, x='outlet', y=sentiment_col, palette='viridis')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:459: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  plt.figure(figsize=(12, max(8, len(ner_df) * 0.4))); sns.barplot(data=ner_df, y='Person', x='Count', palette='coolwarm')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:463: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  plt.figure(figsize=(12, max(8, len(ner_df) * 0.4))); sns.barplot(data=ner_df, y='Organization', x='Count', palette='coolwarm')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:508: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.violinplot(data=party_data, x='outlet', y=sentiment_col, palette='viridis', inner='quartile')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:508: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.violinplot(data=party_data, x='outlet', y=sentiment_col, palette='viridis', inner='quartile')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_vader.py:508: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.violinplot(data=party_data, x='outlet', y=sentiment_col, palette='viridis', inner='quartile')
+
+2025-06-01 02:25:54,335 - INFO - --------------------------------------------------
+2025-06-01 02:25:54,335 - INFO - --- Executing module: src.analysis_textblob ---
+2025-06-01 02:26:11,117 - INFO - Successfully executed src.analysis_textblob in 16.78 seconds.
+2025-06-01 02:26:11,117 - WARNING - Stderr from src.analysis_textblob:
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:401: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  plt.figure(figsize=(14,8)); sns.boxplot(data=df_sentiment_scores,x='outlet',y=sentiment_col,palette='viridis')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:409: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  plt.figure(figsize=(14,8)); sns.boxplot(data=df_sentiment_scores,x='outlet',y='subjectivity',palette='magma')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:422: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=df_p,y='Person',x='Count',palette='coolwarm'); plt.title(f'Top PERSON Entities',fontsize=16)
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:426: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=df_o,y='Organization',x='Count',palette='coolwarm'); plt.title(f'Top ORGANIZATION Entities',fontsize=16)
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:472: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.violinplot(data=party_data, x='outlet', y=sentiment_col, palette='viridis', inner='quartile')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:472: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.violinplot(data=party_data, x='outlet', y=sentiment_col, palette='viridis', inner='quartile')
+D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\src\analysis_textblob.py:472: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.violinplot(data=party_data, x='outlet', y=sentiment_col, palette='viridis', inner='quartile')
+
+2025-06-01 02:26:11,117 - INFO - --------------------------------------------------
+2025-06-01 02:26:11,117 - INFO - ======== Pipeline Completed Successfully in 34.26 seconds ========
+2025-06-01 02:26:11,117 - INFO - Check individual logs in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\logs' and results in 'D:\Ashoka\Monsoon 2024\New Geography of the Infortmation Age\Project\media_bias\analysis_results'.

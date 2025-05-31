@@ -1,18 +1,18 @@
 {
     "ANOVA_polarity_by_outlet": {
-        "f_statistic": 0.8783929783071172,
-        "p_value": 0.5283202454041983,
-        "interpretation": "ANOVA comparing mean TextBlob polarity across outlets: No significant difference (p >= 0.05)."
+        "f": 0.8783929783071172,
+        "p": 0.5283202454041983,
+        "interp": "ANOVA (polarity): Not significant (p>=0.05)."
     },
     "TTest_polarity_IndianExpress_vs_TheHindu": {
-        "t_statistic": 0.9535055861143588,
-        "p_value": 0.3700016503365666,
-        "interpretation": "T-test comparing mean TextBlob polarity (IndianExpress vs TheHindu): No significant difference (p >= 0.05)."
+        "t": 0.9535055861143588,
+        "p": 0.3700016503365666,
+        "interp": "T-test polarity (IndianExpress vs TheHindu): Not significant (p>=0.05)."
     },
-    "Chi2_BJP_Terms_by_Outlet": {
-        "chi2_statistic": 9.27692307692308,
-        "p_value": 0.09851549385474567,
-        "degrees_of_freedom": 5,
-        "interpretation": "Chi-squared test comparing distribution of 'pro_bjp_modi' vs 'critical_bjp_modi' terms across outlets: No significant difference (p >= 0.05)."
+    "Chi2_BJP_Terms_Outlet_TextBlob": {
+        "chi2": 7.0,
+        "p": 0.07189777249646509,
+        "dof": 3,
+        "interp": "Chi2 ('pro_bjp_modi' vs 'critical_bjp_modi'): Not sig (p>=0.05)."
     }
 }
